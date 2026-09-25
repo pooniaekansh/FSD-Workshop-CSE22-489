@@ -6,7 +6,7 @@ function addStudent(name) {
     fs.appendFileSync(file, name + "\n");
     console.log("Student added");
 }
-// Show all students
+// Show all student
 function showStudents() {
     if (fs.existsSync(file)) {
         const data = fs.readFileSync(file, "utf8");

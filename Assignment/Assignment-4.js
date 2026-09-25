@@ -46,7 +46,6 @@ app.delete("/tasks/:id", (req, res) => {
         return res.status(404).send("Task not found");
     }
     tasks = tasks.filter(t => t.id !== id);
-
     res.send("Task deleted successfully");
 });
 // Start server
