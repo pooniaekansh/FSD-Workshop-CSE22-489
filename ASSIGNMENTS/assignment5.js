@@ -18,7 +18,7 @@ app.get("/menu", (req, res) => {
 app.get("/contact", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "views", "contact.html"));
 });
-// Start server
+// Start server 
 app.listen(3000, () => {
     console.log("Bakery website running at http://localhost:3000");
 });

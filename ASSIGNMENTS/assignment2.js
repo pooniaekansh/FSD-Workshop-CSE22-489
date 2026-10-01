@@ -31,7 +31,7 @@ function deleteStudent(name) {
     fs.writeFileSync(file, students.join("\n"));
     console.log("Student deleted");
 }
-// Test the functions
+// Test the functions 
 addStudent("Rahul");
 addStudent("Aman");
 addStudent("Priya");

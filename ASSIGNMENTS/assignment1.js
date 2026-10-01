@@ -11,7 +11,7 @@ schoolBell.on("classEnd", () => {
     console.log("Class Ended!");
 });
 
-// Trigger events
+// Trigger events 
 schoolBell.emit("classStart");
 schoolBell.emit("classEnd");
 

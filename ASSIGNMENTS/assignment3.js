@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
         "Content-Type": "text/plain"
     });
     res.end("Welcome to NodeJS!");
-});
+}); 
 
 server.listen(3000, () => {
     console.log("Server running at http://localhost:3000");
